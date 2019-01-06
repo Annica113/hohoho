@@ -13,6 +13,57 @@ body{
 .slide-show {
 }
 
+header{
+  font-size: 2em;
+  font-family: Times;
+  color: darkred;
+  margin: auto;
+  text-align: center;
+}
+
+h2, p{
+  font-family: Times;
+}
+
+h1,h2,h3,h4,h5,h6{
+  color: #000
+}
+
+.valkommen{
+	display: block;
+	margin-block-start: 0.83em
+	margin-block-end: 0.83em
+	text-align: inherit;
+	line-height: 1.4;
+	font-size: 2.4em;
+	font-family: montserrat, sans-serif;
+
+}
+
+p{
+  font-size: 1.2em;
+  letter-spacing: 0,3pt;
+  line-height: 1em;
+}
+
+nav ul li{
+  display: inline;
+  margin: 0.2em;
+  text-align: center;
+  color: black;
+}
+
+nav{
+  font-family: arial;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+  margin:auto;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  padding: 5px;
+}
+
 li a, .dropbtn{
   display: inline-block;
   color: black;
