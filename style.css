@@ -1,5 +1,15 @@
-.slide-show {
+body{
+  font-family: Times;
+  font-size: 0.9em;
+  background-color: #fff;
+}
 
+#container{
+	width: auto;
+	margin: auto;
+}
+
+.slide-show {
 }
 
 li a, .dropbtn{
