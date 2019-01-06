@@ -7,7 +7,7 @@ body{
 
 
 #container{
-	width: 900px;
+	width: auto;
 	margin: auto;
 }
 
@@ -15,7 +15,7 @@ body{
 }
 
 header{
-  font-size: 2em;
+  font-size: 3em;
   font-family: 'montserrat', sans-serif;
   color: #fff;
   margin: auto;
@@ -27,6 +27,32 @@ h1,h2,h3,h4,h5,h6{
   color: #000
 }
 
+.site{
+  display: grid;
+  grid-gap: 5px
+  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+  background-color: #fff;
+  color: #333;
+}
+
+.nested{
+  display: grid;
+  grid-template-columns: auto-fit;
+  grid-auto-columns: minmax(10px,auto);
+}
+
+.box{
+  border-radius: 5px;
+  padding: 15px;
+  font-size: 120%;
+}
+
+.header{
+  grid-column: 1/5;
+  grid-row: 1
+}
+
+
 .valkommen{
 	display: block;
 	text-align: center;
@@ -36,6 +62,16 @@ h1,h2,h3,h4,h5,h6{
 	font-family: 'montserrat', sans-serif;
 	font-weight: 200;
 	color: #333;
+}
+
+.main-area{
+  grid-column: 1/5;
+  grid-row: 2;
+}
+
+.footer{
+  grid-column: 1/span 5;
+  grid-row: 3;
 }
 
 p{
@@ -54,10 +90,11 @@ nav ul li{
 
 nav{
   font-family: 'montserrat', sans-serif;
-  font-size: 0.5em;
+  font-size: 0.8em;
   font-weight: 200;
   text-align: center;
   margin:auto;
+	padding: 5px;
 }
 
 li a, .dropbtn{
