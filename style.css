@@ -138,3 +138,39 @@ li.dropdown{
   display: block;
 }
 
+/* Presentation av konstnarerna */
+
+
+.presentation {
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding:2em;
+}
+#presentation-annica {
+  grid-column: 1;
+  font-family: 'montserrat', sans-serif;
+  font-size: 0.8em;
+  font-weight: 200;
+  text-align: center;
+  margin:auto;
+}
+#presentation-kajsa {
+  grid-column: 2;
+  font-family: 'montserrat', sans-serif;
+  font-size: 0.8em;
+  font-weight: 200;
+  text-align: center;
+  margin:auto;
+}
+#presentation-lina {
+  grid-column: 3;
+  font-family: 'montserrat', sans-serif;
+  font-size: 0.8em;
+  font-weight: 200;
+  text-align: center;
+  margin:auto;
+}
+.konstnarsbild {
+  width: 100%;
+  margin: 2px
+}
