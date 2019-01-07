@@ -54,7 +54,9 @@ h1,h2,h3,h4,h5,h6{
 
 
 .valkommen{
-	display: block;
+	display: grid;
+	grid-column: 1/4;
+	grid-row: 2
 	text-align: center;
 	width: auto;
 	line-height: 1.4;
