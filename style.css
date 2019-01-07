@@ -144,7 +144,7 @@ li.dropdown{
 .presentation {
   display:grid;
   grid-template-columns: 1fr 1fr 1fr;
-  padding:2em;
+  grid-gap:5px;
 }
 #presentation-annica {
   grid-column: 1;
