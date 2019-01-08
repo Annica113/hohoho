@@ -151,6 +151,7 @@ li.dropdown{
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows:1;
   grid-gap:5px;
+  grid-row:3;
 }
 
 .presentation-annica {
