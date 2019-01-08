@@ -71,8 +71,13 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .footer{
+  display: grid;
   grid-column: 1/span 5;
-  grid-row: 3;
+  grid-row: 5;
+  width: 100%;
+  background-color: white;
+  color: black;
+  text-align: center;
 }
 
 p{
@@ -199,4 +204,45 @@ li.dropdown{
   font-weight: 200;
   text-align: center;
   padding:5px 10px 5px 10px
+}
+
+/*site-title*/
+.title {
+  font-family: 'monserrat', sans-serif;
+  width: auto;
+  color: black;
+  text-align: center;
+}
+
+/* unvisited link */
+.title a:link {
+  color: black;
+  text-decoration: none;
+}
+
+/* visited link */
+.title a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+.fa {
+  padding: 15px;
+  font-size: 15px;
+  width: 20px;
+  text-decoration: none;
+  margin: 70px 0px 0px 0px;
+  border-radius: 50%;
+}
+
+.fa-facebook {
+  display: inline-block;
+  background: #3B5998;
+  color: white !important;
+}
+
+.fa-instagram {
+  display: inline-block;
+  background: #125688;
+  color: white !important;
 }
