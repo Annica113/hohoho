@@ -4,12 +4,6 @@ body{
   background-color: #fff;
 }
 
-
-#container{
-	width: auto;
-	margin: auto;
-}
-
 .slide-show {
 }
 
@@ -21,6 +15,10 @@ header{
   text-align: center;
 }
 
+#header{
+  border: 0;
+  
+}
 
 h1,h2,h3,h4,h5,h6{
   color: #000;
