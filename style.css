@@ -26,8 +26,8 @@ h1,h2,h3,h4,h5,h6{
 
 .site{
   display: grid;
-  grid-gap: 5px
-  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
   background-color: #fff;
   color: #333;
 }
@@ -150,7 +150,6 @@ li.dropdown{
   grid-template-rows:1;
   grid-gap:5px;
   grid-row:3;
-  margin:2em 0em 0em 0em;
 }
 
 .presentation-annica {
@@ -204,11 +203,6 @@ li.dropdown{
   font-weight: 200;
   text-align: center;
   padding:0px 15px;
-}
-/*site-title*/
-.title {
-  width: auto;
-  text-align: center;
 }
 
 .fa {
