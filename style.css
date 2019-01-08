@@ -17,7 +17,7 @@ header{
 
 #header{
   border: 0;
-  
+
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -74,8 +74,9 @@ h1,h2,h3,h4,h5,h6{
   grid-row: 5;
   width: 100%;
   background-color: white;
-  color: black;
+  color: #898989;
   text-align: center;
+  font-size:0.8em;
 }
 
 p{
@@ -227,7 +228,7 @@ li.dropdown{
 .fa {
   padding: 15px;
   font-size: 15px;
-  width: 20px;
+  width: 12px;
   text-decoration: none;
   margin: 70px 0px 0px 0px;
   border-radius: 50%;
@@ -235,7 +236,7 @@ li.dropdown{
 
 .fa-facebook {
   display: inline-block;
-  background: #3B5998;
+  background: #125688;
   color: white !important;
 }
 
