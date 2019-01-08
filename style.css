@@ -207,22 +207,8 @@ li.dropdown{
 }
 /*site-title*/
 .title {
-  font-family: 'monserrat', sans-serif;
   width: auto;
-  color: black;
   text-align: center;
-}
-
-/* unvisited link */
-.title a:link {
-  color: black;
-  text-decoration: none;
-}
-
-/* visited link */
-.title a:visited {
-  color: black;
-  text-decoration: none;
 }
 
 .fa {
