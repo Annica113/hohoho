@@ -122,7 +122,7 @@ li.dropdown{
   position: absolute;
   background-color:rgb(237, 238, 239);
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0,2);
+  box-shadow: 0px 8px 16px 0px;
   z-index: 1;
 }
 
