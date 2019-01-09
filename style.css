@@ -159,17 +159,38 @@ li.dropdown{
   grid-template-rows:repeat(2, minmax(auto,auto));
   grid-column:1/2;
 }
+.presentation-annica a {
+  text-decoration: none; 
+}
+.presentation-annica a:hover {
+  text-decoration: underline;
+  color:grey;
+}
 .presentation-kajsa {
   display:grid;
   grid-template-columns:1fr 1fr;
   grid-template-rows:repeat(2, minmax(auto,auto));
   grid-column:2/3;
 }
+.presentation-kajsa a {
+  text-decoration: none; 
+}
+.presentation-kajsa a:hover {
+  text-decoration: underline;
+  color:grey;
+}
 .presentation-lina {
   display:grid;
   grid-template-columns:1fr 1fr;
   grid-template-rows:repeat(2, minmax(auto,auto));
   grid-column:3/4;
+}
+.presentation-lina a {
+  text-decoration: none; 
+}
+.presentation-lina a:hover {
+  text-decoration: underline;
+  color:grey;
 }
 .konstnarsbild {
   grid-column:1/3;
@@ -193,8 +214,8 @@ li.dropdown{
   font-weight:200;
   text-align: center;
   padding:3px 3px 0px 3px;
+  text-decoration: none;
 }
-
 
 .artist-info {
   grid-column:2/3;
