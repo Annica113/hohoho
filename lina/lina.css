@@ -1,0 +1,22 @@
+body{
+  font-family: 'montserrat', sans-serif;
+  font-size: 0.9em;
+  background-color: #fff;
+}
+
+.slide-show {
+}
+
+header{
+  font-size: 3em;
+  font-family: 'montserrat', sans-serif;
+  color: #fff;
+  margin: auto;
+  text-align: center;
+}
+
+#header{
+  border: 0;
+
+}
+
