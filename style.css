@@ -1,5 +1,5 @@
 body{
-  font-family: montserrat, sans-serif;
+  font-family: "montserrat", sans-serif;
   font-size: 0.9em;
   background-color: #fff;
 }
@@ -9,7 +9,7 @@ body{
 
 header{
   font-size: 3em;
-  font-family: montserrat, sans-serif;
+  font-family: "montserrat", sans-serif;
   color: #fff;
   margin: auto;
   text-align: center;
@@ -22,7 +22,7 @@ header{
 
 h1,h2,h3,h4,h5,h6{
   color: #000;
-  font-family: montserrat, sans-serif;
+  font-family: "montserrat", sans-serif;
   font-weight: 100;
 
 
@@ -62,7 +62,7 @@ h1,h2,h3,h4,h5,h6{
 	width: 100%;
 	line-height: 1.4;
 	font-size: 1.8em;
-	font-family: montserrat, sans-serif;
+	font-family: "montserrat", sans-serif;
 	font-weight: 100;
 	color: #333;
   padding-top: 3em;
@@ -100,7 +100,7 @@ nav ul li{
 }
 
 nav{
-  font-family: 'montserrat', sans-serif;
+  font-family: "montserrat", sans-serif;
   font-size: 1em;
   font-weight: 200;
   text-align: center;
