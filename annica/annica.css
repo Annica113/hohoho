@@ -3,6 +3,7 @@ h1{
  font-family: 'Amatic SC', cursive;
  font-size: 55px;
  text-align: center;
+ grid-column: 1/4;
 }
 
 
