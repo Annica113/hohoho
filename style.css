@@ -65,7 +65,7 @@ h1,h2,h3,h4,h5,h6{
 	font-family: 'montserrat', sans-serif;
 	font-weight: 100;
 	color: #333;
-  padding: 3em, auto, auto, auto;
+  padding-top: 3em;
   margin:-2em;
 }
 
