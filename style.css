@@ -76,10 +76,10 @@ h1,h2,h3,h4,h5,h6{
   grid-column: 1/span 5;
   grid-row: 5;
   width: 100%;
-  background-color: white;
   color: #898989;
   text-align: center;
   font-size:0.8em;
+  padding-top: 70px;
 }
 
 p{
@@ -233,23 +233,4 @@ li.dropdown{
   margin:-1.5em 1em;
 }
 
-.fa {
-  padding: 15px;
-  font-size: 15px;
-  width: 12px;
-  text-decoration: none;
-  margin: 70px 0px 0px 0px;
-  border-radius: 50%;
-}
 
-.fa-facebook {
-  display: inline-block;
-  background: #125688;
-  color: white !important;
-}
-
-.fa-instagram {
-  display: inline-block;
-  background: #125688;
-  color: white !important;
-}
