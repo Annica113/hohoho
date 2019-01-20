@@ -247,16 +247,6 @@ a:hover {
 
 .art-gallery{
   width: 100%;
- }
-
-@media screen and (min-width: 800px) {
-  .column{
-    width: 50%;
-  }
 }
 
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-  } 
-}
+
