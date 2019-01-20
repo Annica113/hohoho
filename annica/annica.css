@@ -251,14 +251,12 @@ a:hover {
 
 @media screen and (min-width: 800px) {
   .column{
-    font-size: 80px;
     width: 50%;
   }
 }
 
 @media screen and (max-width: 600px) {
   .column {
-    font-size: 30px;
     width: 100%;
   } 
 }
